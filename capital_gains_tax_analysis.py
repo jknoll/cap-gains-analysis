@@ -11,7 +11,22 @@ Usage:
     3. Run: python capital_gains_tax_analysis.py
 
 Author: Generated for tax planning purposes
-Disclaimer: This is for educational purposes only. Consult a tax professional.
+
+DISCLAIMER:
+    This tool is for educational and planning purposes only. Tax laws are
+    complex and subject to change. Always consult a qualified tax professional.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+    ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+NOTE ON EXAMPLE DATA:
+    The values in config.example.json are placeholder representations only,
+    using round numbers (e.g., $1.00, 10,000 shares) for illustration purposes.
+    They do not represent any actual person's financial situation.
 """
 
 import json

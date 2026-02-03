@@ -168,6 +168,12 @@ This tool is for **educational and planning purposes only**. Tax laws are comple
 
 **Always consult a qualified tax professional before making financial decisions.**
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Example Data Notice
+
+The values in `config.example.json` and the example screenshots are **placeholder representations only**, using round numbers for illustration purposes. They do not represent any actual person's financial situation, compensation, or equity holdings.
+
 ## License
 
 MIT License - Use freely for personal tax planning.
