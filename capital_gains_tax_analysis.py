@@ -30,16 +30,36 @@ NOTE ON EXAMPLE DATA:
 """
 
 import json
-import os
 import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+# =============================================================================
+# PLOTLY VISUALIZATION LIBRARY
+# =============================================================================
+# This project uses Plotly for interactive visualizations. Plotly was chosen for:
+#
+# 1. INTERACTIVITY: Heatmaps support hover tooltips, drag-to-zoom, and pan
+#    without requiring a backend server - all runs client-side in the browser.
+#
+# 2. STANDALONE HTML: Plotly can export fully self-contained HTML files that
+#    include all data and the Plotly.js library via CDN, making them easy to
+#    share without dependencies.
+#
+# 3. SUBPLOTS: Native support for synchronized multi-panel layouts via
+#    make_subplots(), with shared axes and coordinated interactions.
+#
+# 4. CUSTOMIZATION: Extensive control over hover templates, color scales,
+#    annotations, and shapes for overlay elements like the NIIT threshold line.
+#
+# Documentation: https://plotly.com/python/
+# Heatmaps: https://plotly.com/python/heatmaps/
+# Subplots: https://plotly.com/python/subplots/
+# =============================================================================
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import plotly.express as px
-import plotly.io as pio
 
 
 # =============================================================================
