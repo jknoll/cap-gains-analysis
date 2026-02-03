@@ -1,0 +1,24 @@
+{
+  "cost_basis_per_share": 1.00,
+  "num_shares": 10000,
+  "filing_status": "single",
+  "tax_year": 2026,
+
+  "income_range": {
+    "min": 50000,
+    "max": 500000,
+    "steps": 46
+  },
+
+  "price_range": {
+    "min": 5,
+    "max": 50,
+    "steps": 46
+  },
+
+  "representative_scenarios": [
+    {"income": 150000, "price": 20},
+    {"income": 250000, "price": 30},
+    {"income": 400000, "price": 40}
+  ]
+}
