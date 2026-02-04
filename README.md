@@ -1,6 +1,6 @@
 # Capital Gains Tax Sensitivity Analysis
 
-A two-parameter sensitivity analysis tool for understanding tax implications of selling private company shares as a US California resident.
+A two-parameter sensitivity analysis tool for understanding tax implications of selling equity shares as a US California resident.
 
 ![Example Dashboard](examples/example_dashboard.png)
 
